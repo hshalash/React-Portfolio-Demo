@@ -1,0 +1,26 @@
+.line {
+  width: 80px;
+  height: 4px;
+}
+
+.darkBlueBG {
+  background-color: rgb(44, 62, 80);
+}
+
+.formLayout {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: rgb(223 226 230) !important;
+}
+
+.formLayout:focus {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: rgb(223 226 230) !important;
+}

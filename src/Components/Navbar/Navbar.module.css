@@ -1,0 +1,22 @@
+.bg-darkblue {
+    background-color: rgb(44, 62, 80);
+  }
+  
+  .navbarPad {
+    --bs-navbar-padding-y: 0 !important;
+  }
+  
+  .t-white {
+    color: white !important;
+  }
+  
+  .bg-darkerblue {
+    background-color: #1a252f;
+  }
+  .text-darkblue {
+    background-color: rgb(44, 62, 80);
+  }
+  
+  .cursor { 
+    cursor: pointer;
+  }

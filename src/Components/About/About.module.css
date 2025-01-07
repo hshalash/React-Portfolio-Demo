@@ -1,0 +1,10 @@
+.bgGreen {
+  background-color: #1abc9c;
+  height: 500px;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+}
