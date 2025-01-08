@@ -20,3 +20,12 @@
   .cursor { 
     cursor: pointer;
   }
+
+  .activeStyle {
+    background-color: #1abc9c !important;
+    border: 1px solid #1abc9c !important;
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 3px 5px !important;
+    margin-top: 4px !important;
+  }

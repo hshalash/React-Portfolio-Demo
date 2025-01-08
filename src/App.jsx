@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
 import About from "./Components/About/About.jsx";
 import Home from "./Components/Home/Home.jsx";
@@ -9,16 +9,16 @@ import NotFound from "./Components/NotFound/NotFound.jsx";
 function App() {
   return (
     <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Layout>
+        </Route>
+      </Routes>
     </Router>
   );
 }
