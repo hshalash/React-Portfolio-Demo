@@ -2,7 +2,7 @@
   "name": "assignment1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hanashalash.github.io/ReactApp",
+  "homepage": "https://hshalash.github.io/React-Portfolio-Demo/",
   "type": "module",
   "scripts": {
     "dev": "vite",
